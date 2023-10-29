@@ -28,7 +28,7 @@ function play() {
     return;
   }
   Chances --;
-  ChanceArea.textContent = `남은기회: ${Chances}`;
+  ChanceArea.textContent = `남은 기회: ${Chances}`;
   if(UserValue>Number) {
     ResultArea.textContent = "돼지야 내려!";
   } else if(UserValue<Number) {
@@ -45,15 +45,16 @@ function play() {
   if(GameOver) {
     PlayBtn.disabled = true;
     ChanceArea.textContent = "멍청하네 돼지?"
+    ResultArea.textContent = "다시시작 해"
   }
 }
 
 function reset() {
   UserInput.value = ""
   RandomNumber()
-  ResultArea.textContent = "결과는 여기에 나올거야"
+  ResultArea.textContent = "UP-Down!!"
   Chances = 10;
-  ChanceArea.textContent = `남은기회: ${Chances}`;
+  ChanceArea.textContent = `남은 기회: ${Chances}`;
   PlayBtn.disabled = false;
   History = [];
 }
