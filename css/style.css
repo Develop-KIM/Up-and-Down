@@ -826,6 +826,5 @@ caption.nohead {
 .btn_wrap button {margin-top: 10px; width: 100%; height: 100px; border-radius: 10px; background: #b9907d; color: var(--text-color-100); font-size: 25px; border: none;}
 
 @media (max-width:767px) {
-  .main_banner {background-image: url(../images/main-1.jpg);}
   #header .inner h1 {font-size: 34px;}
 }
