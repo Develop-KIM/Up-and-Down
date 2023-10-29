@@ -159,14 +159,14 @@ body, input, select, textarea, button, table {
 }
 
 /* 스크롤바  */
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   width: 8px;
   background: #eee;
 }
 ::-webkit-scrollbar-thumb {
   background: #ccc;
   border-radius: 8px;
-} 
+}  */
 
 /* 스크롤바 안보이게  */
 /* IE */
