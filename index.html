@@ -1,33 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="ko">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>UpDown</title>
   <link rel="stylesheet" href="css/common.css?v=<?php echo time(); ?>">
   <link rel="stylesheet" href="css/main.css?v=<?php echo time(); ?>">
+  <script src="/js/main.js"></script>
 </head>
-
 <body>
 
   <div class="wrap">
     <header id="header">
       <div class="inner">
-        <h1><strong>우리</strong>랑 함께하는 Up-Down</h1>
+        <h1><strong>Up-Down</strong></h1>
       </div>
     </header>
     <main id="container">
       <div class="main_banner">
         <div class="main_img_wrap">
           <div class="main_img">
-            <img src="images/main.jpg">
+            <img src="/images/main.jpg">
           </div>
           <div class="main_txt">
             <div id="result_area">UP-Down!!</div>
             <div class="tit">
               <p class="txt" id="chance_area">남은 기회: 10</p>
-              <input class="txt" id="user_input" type="number" placeholder="맞춰보던가">
+              <input class="txt" id="user_input" type="number" placeholder="맞춰보세요.">
             </div>
             <div class="btn_wrap">
               <button id="submit_btn" type="button">Go</button>
@@ -39,7 +38,6 @@
   </div>
   </main>
   </div>
-  <script src="js/main.js"></script>
 </body>
 
 </html>
